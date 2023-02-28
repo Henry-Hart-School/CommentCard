@@ -11,7 +11,7 @@ import SwiftUI
 struct CommentCardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(SharedBindingDataCosIDontKnowHowElseToDoItInSwift())
         }
     }
 }
